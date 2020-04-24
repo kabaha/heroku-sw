@@ -1,0 +1,124 @@
+   
+   #logo-company-in-content-form img 
+   {
+	    max-width: 100%;
+    }
+    #logo-company-in-content-form {
+        margin: 4.75em 0.35em 0.35em 0.35em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   #contact_us
+     {
+        background-color: honeydew;
+        color: black;
+        text-transform: uppercase;
+        font-size: larger;
+        font-weight: bold;
+        text-align: left;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #contact_us label
+     {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+    #contact_us input, textarea
+     {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #83c4ec;
+        border-radius: 4px;
+        /* resize: vertical; */
+        resize: none;
+    }
+    .contact_form {
+        max-width: 800px;
+        padding: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #contact_us input[type=submit]:hover
+    {
+        background-color: #45a049;
+    }
+    #contact_us label[for="firstName"]::after,label[for="lastName"]::after,label[for="email"]::after
+    {
+        content: "*";
+        color: red;
+        margin: .1em;
+    }
+
+    #contact_us input[type="submit"]
+     {
+        background-color: #0079fb;
+        color: white;
+        text-transform: uppercase;
+        font-size: x-large;
+    }
+    .contact_form h1
+     {
+        padding: .75em;
+        background-color: crimson;
+        color: white;
+        text-align: center;
+        border-top: 6px double gold;
+    }
+    .contact_form > p {
+        text-align: center;
+        padding: 1.25em;
+        border-radius: 0px 0px 5px 5px;
+        background-image: url(https://img.freepik.com/free-vector/watercolor-background_87374-68.jpg?size=626&ext=jpg);
+        color: #000;
+    }
+
+    #content h3 {
+        background-color: orange;
+        padding: 2em;
+        border-radius: 8px;
+        color: #aa0101;
+        font-size: x-large;
+    }
+
+    #content ul
+     {
+        text-align: left;
+        list-style: disclosure-closed;
+        font-size: 1.35em;
+        color: black;
+    }
+    .info-error {
+        background-color: #fff3cd;
+        padding: 1.35em;
+        margin: 1.75em 5em;
+        color: #491217;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .error {
+        background-color: #d33;
+        color: #fff;
+        padding: 0.50em 0.75em 0.50em 0.75em;
+        /* padding: 0.50em 2.3em 0.50em 2.3em; */
+        text-transform: none;
+        border-radius: 5px 5px 27px 5px;
+        font-weight: normal;
+    }
+    .success-msg {
+        background-color: #d4edda;
+        color: #155760;
+        margin: 7em 1em;
+        padding: 0.35em 0.75em;
+        border-radius: 6px;
+    }
+    .format {
+        background-color: green;
+        color: #fff;
+        padding: 0.50em 2.3em 0.50em 2.3em;
+        text-transform: none;
+        border-radius: 5px 5px 27px 5px;
+        font-weight: normal;
+    }

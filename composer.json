@@ -1,0 +1,6 @@
+{
+  "require-dev": {
+    "vlucas/phpdotenv": "^4.1",
+    "silex/silex": "~1.1"
+  }
+}
